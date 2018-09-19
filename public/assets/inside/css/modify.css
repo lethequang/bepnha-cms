@@ -1,0 +1,146 @@
+.pagination {
+    margin: 0px 0px 10px 0px;
+}
+
+#mainnav-container {
+    background: #32404e;
+}
+
+.form-group .lang {
+    margin-bottom: 10px;
+}
+.pad-rgt-20{
+    padding-right: 20px;
+}
+
+/*TrungDC2 Edited Style*/
+#tag_ids_chosen {
+    margin-bottom: 0;
+}
+.p-l-file {
+    margin-top: 5px;
+    font-size: 15px;
+    text-align: center;
+    cursor: pointer;
+    width: 123px;
+    height: 32px;
+    line-height: 30px;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: #BEC3C7;
+}
+#edt th.sorting,
+#edt th.sorting_asc, 
+#edt th.sorting_desc {
+    cursor: pointer;
+    position: relative;
+    background: url('/assets/inside/plugins/data-tables/images/sort_both.png') no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+#edt th.sorting_asc {
+    background: url('/assets/inside/plugins/data-tables/images/sort_asc.png') no-repeat, url('/assets/inside/plugins/data-tables/images/sort_both.png') no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+#edt th.sorting_desc {
+    background: url('/assets/inside/plugins/data-tables/images/sort_desc.png') no-repeat, url('/assets/inside/plugins/data-tables/images/sort_both.png') no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+}
+a.browse-image {
+    width: 100%;
+    float: left;
+}
+#article-image-box,
+#article-video-box {
+    border: 1px solid #CCC;
+    padding: 15px 0;
+    max-height: 620px;
+    overflow-y: auto;
+}
+#article-image-box .items,
+#article-video-box .items {
+    padding-bottom: 15px;
+    float: left;
+    width: 100%;
+}
+#article-image-box .items .items-box,
+#article-video-box .items .items-box {
+    padding: 10px;
+    border-bottom: 1px solid #CCC;
+    margin-bottom: 10px;
+}
+#article-image-box .items .items-box:last-child,
+#article-video-box .items .items-box:last-child {
+    border-bottom: none;
+}
+.pagination .item.uk-active {
+    /*color: #54abd9;*/
+    font-weight: bold;
+}
+span.required:after {
+    content: ' *';
+    color: red;
+}
+.scrollbox {
+    max-height: 300px;
+    overflow-y: auto;
+    border: 1px solid #CCC;
+}
+#related-article-modal .search-field {
+    width: 100%;
+    padding: 10px 0 0;
+    text-align: right;
+}
+/*End TrungDC2 Edited Style*/
+
+/*TuyenVTT3 Edited Style*/
+.yes-no{
+    position: relative;    
+    padding: 0.5em 1.5em;
+    margin-bottom: 12px;
+    background-color: #fafafa;
+    border-color: #cdd6e1;
+    color: #515151;
+}
+.yes-no.active{    
+    background-color: #48c5a3;
+    border-color: #50c7a7;
+    color: #fff;
+}
+.table-condensed .datepicker-switch,
+.table-condensed .prev,
+.table-condensed .next{
+    background: white;
+}
+.table-condensed .day.disabled,
+.table-condensed .day.disabled:hover{
+    background: #FFFFF4;
+}
+.page-content{
+
+}
+#footer{
+    position: fixed;
+    height: 0px;
+}
+.pagination .uk-active{
+    background: #579DDB;
+    color: white;
+}
+#cke_upload_multi_file{
+    width: 45px;
+    height: 40px;
+    overflow: hidden;
+    position: relative;
+}
+#cke_upload_multi_file .cke_top{
+    position: absolute;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+}
+#floating-top-right{
+	z-index:10000;
+}
